@@ -1,4 +1,4 @@
-# Near-Final Terraform for IaC (Building 3 tier web app)**
+# Building a 3 tier web app on AWS
 
 To run this web app directly, run terraform in Terraform folder to set up the infrastructures
 
