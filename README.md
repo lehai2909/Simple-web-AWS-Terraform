@@ -1,8 +1,10 @@
 # Building a simple 3-tier web app on AWS
 
-A simple 3-tier web app that logs user's information (name, log in time) when he/she logs in
+A simple 3-tier web app that log user's information (name, log in time) when he/she logs in
 
 To automate creation and management of this app, I use Terraform. Terraform is a Infrastructure as Code (IaC) tool that allow us to  manage infrastructure with configuration files rather than through a graphical user interface (AWS Console, for example)
+
+## Architect
 
 In this project, I use Terraform to create following components on AWS:
 
@@ -16,3 +18,15 @@ In this project, I use Terraform to create following components on AWS:
 Simple diagram of the architect (Thanks to drawio):
 
 ![Diagram](./Terraform/AWS-web-Terraform.png)
+
+## How to test?
+
+You must have Terraform CLI already set up on your computer. To create the all the components, move to Terraform folder and run this single command:
+
+```
+terraform apply
+```
+
+When all components are created, you can go to AWS EC2 service console to check the public IP Adress of newly created instance that run the app
+
+From then, go to address: ```<ip-address>:3000```
