@@ -29,4 +29,10 @@ terraform apply
 
 When all components are created, you can go to AWS EC2 service console to check the public IP Adress of newly created instance that run the app
 
-From then, go to address: ```<ip-address>:3000```
+From then, go to ```http://<ip-address>:3000/users``` from your browser to access the app
+
+When you've done, to avoid unexpected charges, use the following command to delete all the resources:
+
+```
+terraform destroy
+```
