@@ -14,4 +14,5 @@ In this project, I use Terraform to create following components on AWS:
 - Instance profile with appropriate policy to use DynamoDB service 
 
 Simple diagram of the architect (Thanks to drawio):
+
 ![Diagram](./Terraform/AWS-web-Terraform.png)
