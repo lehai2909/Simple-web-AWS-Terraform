@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome, #{title}
+  form(method='POST' action='')
+    div.form-group
+      label(for='first_name') First Name:
+      input#first_name.form-control(type='text' placeholder='First name' name='first_name' required='true')
+      label(for='first_name') Last Name:
+      input#last_name.form-control(type='text' placeholder='Last name' name='last_name' required='true')
+    button.btn.btn-primary(type='submit') Submit
