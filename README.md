@@ -23,7 +23,7 @@ Simple diagram of the architect (Thanks to drawio):
 
 ## How to test?
 
-You must have Terraform CLI already set up on your computer. To create the all the components, move to Terraform folder and run this single command:
+You must have Terraform CLI as well as necessary AWS credential already set up on your computer. To create the all the components, move to Terraform folder and run this single command:
 
 ```
 terraform apply
