@@ -1,4 +1,4 @@
-# Building a simple 3-tier web app on AWS
+# Building a (super) simple 3-tier web app on AWS
 
 A simple 3-tier web app that log user's information (name, log in time) when he/she logs in
 
